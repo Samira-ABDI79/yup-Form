@@ -26,7 +26,7 @@ const validationSchema = Yup.object().shape({
 
 });
 
-function MyForm() {
+function ReactTailwindjs() {
   const [values, setValues] = useState({});
   const [errors, setErrors] = useState({});
     
@@ -95,4 +95,4 @@ function MyForm() {
   );
 }
 
-export default MyForm;
+export default ReactTailwindjs;

@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import MainLayout from "./layout";
 import Home from "./pages/home";
+import ReactTailwindjs from "./pages/reactTailwindjs";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
           <Routes>
             <Route element={<MainLayout />}>
               <Route path="/" element={<Home />} />
+              <Route path="/reactTailwindjs" element={<ReactTailwindjs />} />
+
              
             </Route>
           </Routes>
